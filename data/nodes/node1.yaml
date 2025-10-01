@@ -1,2 +1,0 @@
----
-profile::base::ntp_servers: ['0.us.pool.ntp.org', '1.us.pool.ntp.org']
