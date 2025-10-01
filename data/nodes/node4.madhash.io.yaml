@@ -1,2 +1,2 @@
 ---
-profile::ntp_servers: ['2.us.pool.ntp.org', '3.us.pool.ntp.org']
+profile::ntp::ntp_servers: ['2.us.pool.ntp.org', '3.us.pool.ntp.org']
