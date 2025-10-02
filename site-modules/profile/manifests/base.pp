@@ -2,5 +2,5 @@
 class profile::base {
   include profile::ntp
   include profile::patching
-  include profile::zabbix::agent
+  include profile::zabbix_agent
 }
