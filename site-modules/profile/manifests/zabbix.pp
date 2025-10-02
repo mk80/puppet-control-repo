@@ -1,4 +1,4 @@
-class profile::zabbix::agent { 'zabbix::agent':
+class profile::zabbix { 'zabbix::agent':
   agent_configfile_path => '/etc/zabbix/zabbix_agent2.conf',
   include_dir           => '/etc/zabbix/zabbix_agent2.d',
   include_dir_purge     => false,
