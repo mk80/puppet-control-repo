@@ -6,7 +6,7 @@ class profile::zabbix_agent {
   zabbix_package_agent  => 'zabbix-agent2',
   servicename           => 'zabbix-agent2',
   manage_startup_script => false,
-  server                => 'quietbox.madhash.io',
+  server                => 'quietbox-zabbix.madhash.io',
   manage_repo           => true,
   zabbix_package_state  => 'latest',
   zabbix_version        => '6.0',
