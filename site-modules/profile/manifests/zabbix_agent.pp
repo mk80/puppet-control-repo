@@ -9,6 +9,5 @@ class profile::zabbix_agent {
   server                => 'quietbox-zabbix.madhash.io',
   manage_repo           => true,
   zabbix_package_state  => 'latest',
-  zabbix_version        => '6.0',
   }
 }
