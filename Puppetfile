@@ -18,6 +18,7 @@ mod 'puppetlabs-apt', '9.1.0'
 #mod 'puppetlabs-haproxy', '7.2.1'
 mod 'puppetlabs-kubernetes', '8.1.0'
 mod 'puppet-unattended_upgrades', '9.0.0'
+mod 'puppet-zabbix', '11.0.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
