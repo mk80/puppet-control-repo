@@ -1,4 +1,5 @@
-class profile::zabbix_agent { 'zabbix::agent':
+class profile::zabbix_agent {
+  class { 'zabbix::agent':
   agent_configfile_path => '/etc/zabbix/zabbix_agent2.conf',
   include_dir           => '/etc/zabbix/zabbix_agent2.d',
   include_dir_purge     => false,
@@ -9,4 +10,5 @@ class profile::zabbix_agent { 'zabbix::agent':
   manage_repo           => true,
   zabbix_package_state  => 'latest',
   zabbix_version        => '6.0',
+  }
 }
