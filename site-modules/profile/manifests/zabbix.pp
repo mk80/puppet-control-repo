@@ -6,4 +6,7 @@ class { 'zabbix::agent':
   servicename           => 'zabbix-agent2',
   manage_startup_script => false,
   server                => 'quietbox.madhash.io',
+  manage_repo           => true,
+  zabbix_package_state  => 'latest',
+  zabbix_version        => '6.0',
 }
