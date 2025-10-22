@@ -34,26 +34,26 @@ node default {
 
 
 node 'admin1.madhash.io' {
-  include 'role::docker'
+  #include 'role::docker'
   #include 'role::controller'
 }
 
 node 'node1.madhash.io' {
-  include 'role::docker'
+  #include 'role::docker'
   #include 'role::worker'
 }
 
 node 'node2.madhash.io' {
-  include 'role::docker'
+  #include 'role::docker'
   #include 'role::worker'
 }
 
 node 'node3.madhash.io' {
-  include 'role::docker'
+  #include 'role::docker'
   #include 'role::worker'
 }
 
 node 'node4.madhash.io' {
-  include 'role::docker'
+  #include 'role::docker'
   #include 'role::worker'
 }
