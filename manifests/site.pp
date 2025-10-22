@@ -54,6 +54,6 @@ node 'node3.madhash.io' {
 }
 
 node 'node4.madhash.io' {
-  #include 'role::docker'
+  include 'role::docker'
   #include 'role::worker'
 }
